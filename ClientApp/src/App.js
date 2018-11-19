@@ -17,7 +17,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import logo from './logo.svg';
 import Footer from './components/Footer';
-import beachy from './assets/bw+g.jpg';
+import beachy from './assets/beach.jpg';
 
 export default class App extends Component {
     state = {

@@ -15,6 +15,9 @@
     "rimraf": "^2.6.2",
     "semantic-ui-react": "^0.83.0"
   },
+  "devDependencies": {
+    "semantic-ui": "^2.3.3"
+  },
   "scripts": {
     "start": "rimraf ./build && react-scripts start",
     "build": "react-scripts build",

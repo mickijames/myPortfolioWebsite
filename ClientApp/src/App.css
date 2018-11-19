@@ -1,4 +1,6 @@
-﻿.ui .top.fixed.menu {
+﻿body {
+}
+.ui .top.fixed.menu {
     left: inherit;
 }
 
@@ -6,22 +8,22 @@
     padding: 1em;
 }
 
-.ui .header > .image:not(.icon), .ui .header .ui.header > img {
-    width: auto;
-    height: 300px;
-}
+    .ui .header > .image:not(.icon), .ui .header .ui.header > img {
+        width: auto;
+        height: 300px;
+    }
 
-.ui .header h1.inverted {
-    font-size: 2.5rem;
-    text-align: center;
-}
+    .ui .header h1.inverted {
+        font-size: 2.5rem;
+        text-align: center;
+    }
 
-.ui .header i.icon:only-child {
-    font-size: 2rem;
-    padding-top: .5em;
-    width: 1em;
-    height: 1.25em;
-}
+    .ui .header i.icon:only-child {
+        font-size: 2rem;
+        padding-top: .5em;
+        width: 1em;
+        height: 1.25em;
+    }
 
 .ui .right.floated.image {
     margin-top: -1em;
@@ -70,10 +72,10 @@ h4:first-child {
     z-index: -100;
 }
 
-.fullscreen-bg video {
-    -o-object-fit: cover;
-    object-fit: cover;
-}
+    .fullscreen-bg video {
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
 
 .page-height {
     display: -webkit-box;
@@ -137,10 +139,10 @@ footer {
     padding: 5em;
 }
 
-footer hr {
-    visibility: visible;
-    margin: 2em;
-}
+    footer hr {
+        visibility: visible;
+        margin: 2em;
+    }
 
 @media (max-width: 497px) {
     p {
