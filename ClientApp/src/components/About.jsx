@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Segment, Image } from 'semantic-ui-react';
 import farmpic from '../assets/farmpic.jpg';
 
-class About extends Component {
+export default class About extends Component {
     pos;
     componentDidMount() {
         let n = ReactDOM.findDOMNode(this);
@@ -43,5 +43,3 @@ class About extends Component {
         );
     }
 }
-
-export default About;

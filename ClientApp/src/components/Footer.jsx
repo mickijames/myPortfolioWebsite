@@ -1,6 +1,6 @@
 ﻿import React, { Component } from 'react';
 
-class Contact extends Component {
+export default class Footer extends Component {
     render() {
         return (
             <footer>
@@ -11,5 +11,3 @@ class Contact extends Component {
         );
     }
 }
-
-export default Contact;

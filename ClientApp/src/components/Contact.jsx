@@ -2,7 +2,7 @@
 import ReactDOM from 'react-dom';
 import { Segment, Button, Form, TextArea, Icon } from 'semantic-ui-react';
 
-class Contact extends Component {
+export default class Contact extends Component {
     pos;
     componentDidMount() {
         let n = ReactDOM.findDOMNode(this);
@@ -38,5 +38,3 @@ class Contact extends Component {
         );
     }
 }
-
-export default Contact;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ScrollEvent from 'react-onscroll';
+import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 import {
     Button,

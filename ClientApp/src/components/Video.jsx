@@ -2,7 +2,7 @@
 import ReactPlayer from 'react-player';
 import video from '../assets/video.mp4';
 
-class Video extends Component {
+export default class Video extends Component {
     render() {
         return (
             <div className='fullscreen-bg'>
@@ -18,5 +18,3 @@ class Video extends Component {
         );
     }
 }
-
-export default Video;

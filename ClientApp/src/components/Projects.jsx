@@ -7,7 +7,7 @@ import ashman from '../assets/ashman.mp4';
 
 const src = 'https://placeimg.com/640/480/any';
 
-class Projects extends Component {
+export default class Projects extends Component {
     pos;
     componentDidMount() {
         let n = ReactDOM.findDOMNode(this);
@@ -64,5 +64,3 @@ class Projects extends Component {
         );
     }
 }
-
-export default Projects;
